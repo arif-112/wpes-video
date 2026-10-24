@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Rendered output
+out/
+*.mp4
+
+# Remotion / bundler caches
+.remotion/
+build/
+dist/
+.cache/
+
+# Logs & OS cruft
+*.log
+npm-debug.log*
+.DS_Store
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
