@@ -1,0 +1,29 @@
+{
+  "name": "wp-expert-motion-video",
+  "version": "1.0.0",
+  "description": "WP Expert Solution - Facebook Page to Website Motion Design Reel (Remotion + React)",
+  "private": true,
+  "scripts": {
+    "setup": "node scripts/generate-sfx.js",
+    "prestart": "node scripts/generate-sfx.js",
+    "prerender": "node scripts/generate-sfx.js",
+    "start": "remotion studio",
+    "render": "remotion render src/index.ts WPExpertReel out/wp-expert-reel.mp4",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.538",
+    "remotion": "4.0.538",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "@types/node": "22.10.2",
+    "typescript": "5.7.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
